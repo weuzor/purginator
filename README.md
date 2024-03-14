@@ -13,9 +13,8 @@
 * 2ea M2x10 screw
 * 4ea M2x5 screw
 * 3ea 2x10 self tapping screws
-* 1ea M3x
 * 2ea M5x10 screw
 * 2ea M5 hex nut
-* 2ea M5x16 screw
+* 2ea M5x12 screw
 * 2ea M5 roll in T-nuts
-* 4ea M5 washer (optional)
+* 2ea M5 washer
