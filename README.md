@@ -18,7 +18,7 @@
 * 2ea M5x12 screw
 * 2ea M5 roll in T-nuts
 ### Brushinator
-* 1ea Brush(https://www.amazon.de/Reinigung-Drahtbürste-Kunststoffgriffe-Edelstahl-Reinigungswerkzeug/dp/B0895GCSH7/ref=sxts_b2b_sx_reorder_acb_customer?content-id=amzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a%3Aamzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&crid=20N7CF5QOWQE5&cv_ct_cx=messingbürste&dib=eyJ2IjoiMSJ9.z7TWS4HkcxDzHbvJIgCPzA.Y7QLxHE9fQSL7NgeJQ0xp0zurahyunnSiQJpj-z_JAI&dib_tag=se&keywords=messingbürste&pd_rd_i=B0895GCSH7&pd_rd_r=83d5e4a9-06be-4864-90a7-eb933d223a5d&pd_rd_w=HD1Tp&pd_rd_wg=Qrf1B&pf_rd_p=f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&pf_rd_r=70E8QH3QH7KNRC2K66PZ&qid=1710793370&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=messingbürste%2Caps%2C100&sr=1-1-c8a51df4-6015-4603-b82a-8c2c24cf7e97&th=1)
+* 1ea [Brush](https://www.amazon.de/Reinigung-Drahtbürste-Kunststoffgriffe-Edelstahl-Reinigungswerkzeug/dp/B0895GCSH7/ref=sxts_b2b_sx_reorder_acb_customer?content-id=amzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a%3Aamzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&crid=20N7CF5QOWQE5&cv_ct_cx=messingbürste&dib=eyJ2IjoiMSJ9.z7TWS4HkcxDzHbvJIgCPzA.Y7QLxHE9fQSL7NgeJQ0xp0zurahyunnSiQJpj-z_JAI&dib_tag=se&keywords=messingbürste&pd_rd_i=B0895GCSH7&pd_rd_r=83d5e4a9-06be-4864-90a7-eb933d223a5d&pd_rd_w=HD1Tp&pd_rd_wg=Qrf1B&pf_rd_p=f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&pf_rd_r=70E8QH3QH7KNRC2K66PZ&qid=1710793370&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=messingbürste%2Caps%2C100&sr=1-1-c8a51df4-6015-4603-b82a-8c2c24cf7e97&th=1)
 * 4ea brass heat inserts 4mm
 * 2ea M5x10 button headscrew
 * 2ea M5 hex nut
