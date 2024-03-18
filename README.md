@@ -1,6 +1,6 @@
 # The Purginator - a lightweight gantry mounted purge bucket for the Voron 2 3D printer.
-## Bill of Materials:
 (https://youtu.be/IaCVgWm7dVc)
+## Bill of Materials:
 ### Purginator
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
 * [1 ea silicone O-Ring 10x14x2mm](https://www.amazon.de/gp/product/B07NQD6KCJ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1)
