@@ -17,4 +17,4 @@
 * 2ea M5 hex nut
 * 2ea M5x12 screw
 * 2ea M5 roll in T-nuts
-* 2ea M5 washer
+
