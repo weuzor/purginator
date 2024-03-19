@@ -42,14 +42,17 @@
 * 1ea MG90s 180deg Servo
 
 ## Purginator Building Instructions
-
-### Preparation
 * With a ruler and a scalpel cut out a 82x20 mm strip of 1mm thick silicone sheet and punch 2.5 mm holes according to the template. This ist best done with [punch pliers](https://www.amazon.de/AmazonBasics-Leder-Lochzangen-Set-Drehlochzange-verschiedene-Aufweitwerkzeug/dp/B07W48YG15/ref=sr_1_1_ffob_sspa?crid=Q96VTO20Z6JF&dib=eyJ2IjoiMSJ9.HWjcpEgpXCPkTwFn7Ex3hMQVKTF8OVhrfR7BBim0AXNtrP4Doypsq9iqnog-XIyfIdXdWmZXm5eAmspMH-17IQhGMJ4RgyXJRH3qj4_gQ3bJLZOiAskIPYWs-z18LgVfhQdsucgHDHeOROjCnV8fbx_5tbQipQh_mngMIqCHn3XKTLn09DdfxjHAMntypskkf1c5OUrXmWF0YJBniCbq8tjya1m33LWLyLyblHhAWnE.RNZpz3uQqhsoqXTNV4xxpJ1DEOtU8145AU8xL-e6cCY&dib_tag=se&keywords=lochzange&qid=1710811490&sprefix=lochzange%2Caps%2C102&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) and the jig which can be found amongst the stl files.
-* Mount the 4 armed servo horn that came with the MG90s servo to the retraction drum using the screws which were included as well.
+* Mount the 4 armed servo horn that came with the MG90s servo to the retraction drum using the screws which were included as well and cut the protruding arm flush
 * Insert a heat insert in each of the bearing levers
 * Mount the ballbearings to the bearing levers
 * Fix the 20mm brass standoff to one of the bearing levers using a M3x10 countersunk screw.
-* 
+* Insert into the main body and the lid
+* Mount the second bearing lever and the torque inducer using a M3x20 countersunk screw. Tighten so that the torque inducer does not slip.
+* Stretch the silicone O-ring over the torque inducer and fix it to the hook on the main body.
+* Mount the silicone strip to the retraction drum using the drum clamp and two M2x10 screws. Make sure the strip is perpendicular to the drum.
+* Place the drum in the main body and run the silicone strip in a loop around the bearings.
+* Slide the cover in place and secure with three 2x10mm tapping screws.
 
 
 
