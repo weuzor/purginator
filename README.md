@@ -53,6 +53,13 @@
 * Mount the silicone strip to the retraction drum using the drum clamp and two M2x10 screws. Make sure the strip is perpendicular to the drum.
 * Place the drum in the main body and run the silicone strip in a loop around the bearings.
 * Slide the cover in place and secure with three 2x10mm tapping screws.
+* Fix the silicone strip end to the housing bottom using the fwd clamp and 4 M2x5 screws. Make sure not to overtighten. Less is more here.
+* Check for smooth action.
+* Place the M5 hex nuts in the gantry mount (and maybe secure them with some glue)
+* Mount the assembly to the gantry mount using two M5x10 button head screws to make mount the most used word in this article
+* The servo should be inserted in position ANGLE=180 and the purginator drum in fully retracted position.
+* Mount to the left gantry corner flush to the aluminium extrusion.
+
 
 
 
