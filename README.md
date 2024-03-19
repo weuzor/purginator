@@ -26,7 +26,7 @@
 * 2ea M5 hex nut
 * 2ea M5x12 button head screw
 * 2ea M5 roll in T-nuts
-### Adjustable servo to gantry mounting bracket and pin for the Filametrix Cutting Mod
+### Gantry Servo Mount & Pin
 * 1ea 15mm M3 brass standoff
 * 1ea M3x16 button head screw
 * 1ea MG90s 180deg Servo
