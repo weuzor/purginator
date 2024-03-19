@@ -2,7 +2,7 @@
 ![Purginator Render](https://github.com/weuzor/purginator/blob/main/happily_together.png)
 * makes mmu prints less messy and a bit faster
 * eliminates the need of a purgetower or primetower
-* comes with his friend brushinator, a poor copy of[this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator
+* comes with his friend brushinator, a poor copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator
 [Puginator action in a 15 min 3 colour TEsT Print](https://youtu.be/IaCVgWm7dVc)
 * comes with an adjustable mount for a retractable pin servo for the filametrix cutting mod
 ## Bill of Materials:
