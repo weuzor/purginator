@@ -1,4 +1,4 @@
-# The Purginator - a retractable gantry mounted purge bucket for the Voron 2 3D printer
+# The Purginator - a retractable gantry mounted purge bucket for the Voron 2
 
 
 [Puginator action in a 15 min 3 colour TEsT Print](https://youtu.be/IaCVgWm7dVc)
