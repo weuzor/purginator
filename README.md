@@ -31,10 +31,15 @@
 * 1ea M3x16 button head screw
 * 1ea MG90s 180deg Servo
 
-## Purginator Assembly
+## Purginator Building Instructions
 
 ### Preparation
-With a ruler and a scalpel ut yourself a 82x20 mm strip of 1mm thick silicone sheet and punch 2.5 mm holes according to the template. This ist best done with [punch pliers](https://www.amazon.de/AmazonBasics-Leder-Lochzangen-Set-Drehlochzange-verschiedene-Aufweitwerkzeug/dp/B07W48YG15/ref=sr_1_1_ffob_sspa?crid=Q96VTO20Z6JF&dib=eyJ2IjoiMSJ9.HWjcpEgpXCPkTwFn7Ex3hMQVKTF8OVhrfR7BBim0AXNtrP4Doypsq9iqnog-XIyfIdXdWmZXm5eAmspMH-17IQhGMJ4RgyXJRH3qj4_gQ3bJLZOiAskIPYWs-z18LgVfhQdsucgHDHeOROjCnV8fbx_5tbQipQh_mngMIqCHn3XKTLn09DdfxjHAMntypskkf1c5OUrXmWF0YJBniCbq8tjya1m33LWLyLyblHhAWnE.RNZpz3uQqhsoqXTNV4xxpJ1DEOtU8145AU8xL-e6cCY&dib_tag=se&keywords=lochzange&qid=1710811490&sprefix=lochzange%2Caps%2C102&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) and using the jig which can be found amongst the stl files.
+* With a ruler and a scalpel cut out a 82x20 mm strip of 1mm thick silicone sheet and punch 2.5 mm holes according to the template. This ist best done with [punch pliers](https://www.amazon.de/AmazonBasics-Leder-Lochzangen-Set-Drehlochzange-verschiedene-Aufweitwerkzeug/dp/B07W48YG15/ref=sr_1_1_ffob_sspa?crid=Q96VTO20Z6JF&dib=eyJ2IjoiMSJ9.HWjcpEgpXCPkTwFn7Ex3hMQVKTF8OVhrfR7BBim0AXNtrP4Doypsq9iqnog-XIyfIdXdWmZXm5eAmspMH-17IQhGMJ4RgyXJRH3qj4_gQ3bJLZOiAskIPYWs-z18LgVfhQdsucgHDHeOROjCnV8fbx_5tbQipQh_mngMIqCHn3XKTLn09DdfxjHAMntypskkf1c5OUrXmWF0YJBniCbq8tjya1m33LWLyLyblHhAWnE.RNZpz3uQqhsoqXTNV4xxpJ1DEOtU8145AU8xL-e6cCY&dib_tag=se&keywords=lochzange&qid=1710811490&sprefix=lochzange%2Caps%2C102&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) and the jig which can be found amongst the stl files.
+* Mount the 4 armed servo horn that came with the MG90s servo to the retraction drum using the screws which were included as well.
+* Insert a heat insert in each of the bearing levers
+* Mount the ballbearings to the bearing levers
+* Fix the 20mm brass standoff to one of the bearing levers using a M3x10 countersunk screw.
+* 
 
 
 
