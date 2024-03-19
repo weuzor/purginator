@@ -4,7 +4,7 @@
 * eliminates the need of a purgetower or primetower
 * comes with his friend brushinator, a poor copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions
 * comes with an adjustable mount for a retractable pin servo for the filametrix cutting mod
-[Puginator action in a 15 min 3 colour TEsT Print](https://youtu.be/IaCVgWm7dVc)
+
 ## Bill of Materials:
 ### Purginator 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
