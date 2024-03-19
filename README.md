@@ -3,7 +3,7 @@
 
 ## Selling points
 * makes mmu prints less messy and a bit faster 
-* eliminates the need of a purgetower or primetower. [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
+* eliminates the need for a purgetower or primetower. [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
 * comes with his friend brushinator, a poor copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions
 * comes with an adjustable mount for the filametrix cutting mod gantry servo
 * washes your laundry
