@@ -1,6 +1,7 @@
 # The Purginator - a retractable gantry mounted purge bucket for Voron 2 3D Printers
 
-
+* makes mmu prints less messy and a bit faster
+* eliminates the need of a purgetower or primetower
 [Puginator action in a 15 min 3 colour TEsT Print](https://youtu.be/IaCVgWm7dVc)
 ## Bill of Materials:
 ### "Purginator" 
