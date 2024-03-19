@@ -2,7 +2,9 @@
 ![Purginator Render](https://github.com/weuzor/purginator/blob/main/happily_together.png)
 * makes mmu prints less messy and a bit faster
 * eliminates the need of a purgetower or primetower
+* comes with his friend brushinator, a poor copy of[this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator
 [Puginator action in a 15 min 3 colour TEsT Print](https://youtu.be/IaCVgWm7dVc)
+*comes with an adjustable mount for a retractable pin servo for the filametrix cutting mod
 ## Bill of Materials:
 ### "Purginator" 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
@@ -29,7 +31,7 @@
 * 2ea M5 hex nut
 * 2ea M5x12 button head screw
 * 2ea M5 roll in T-nuts
-### Gantry Servo Mount & Pin for Filametrix Filament Cutter, because I could not find elswhere.
+### Gantry Servo Mount & Pin for Filametrix Filament Cutter.
 * 1ea 15mm M3 brass standoff
 * 1ea M3x16 button head screw
 * 1ea MG90s 180deg Servo
