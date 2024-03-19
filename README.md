@@ -1,7 +1,7 @@
 # The Purginator - a retractable gantry mounted purge bucket for the Voron 2
 ![Purginator Render](https://github.com/weuzor/purginator/blob/main/happily_together.png)
 
-##Selling points
+## Selling points
 * makes mmu prints less messy and a bit faster [video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
 * eliminates the need of a purgetower or primetower
 * comes with his friend brushinator, a poor copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions
