@@ -1,8 +1,8 @@
 # Voron 2 Modifications 
 ![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
 [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
-
-## The Purginator
+## Introduction
+### The Purginator
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
@@ -12,7 +12,7 @@ When retracting the silicone strip gets stretched out. This motion wipes the noz
 Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files.
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
-## The Excarvator
+### The Excarvator
 The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
 
@@ -21,16 +21,17 @@ The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
 This modification requires a cutout in the backpanel!
 
-## The Brushinator
+### The Brushinator
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
 
 <img src="https://github.com/weuzor/purginator/blob/main/brushinator_crossection.png" width="500">
 
-## Gantry Servo Mount + Pin
+### Gantry Servo Mount + Pin
 I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin as the [Happy Hare](https://github.com/moggieuk/Happy-Hare) config options would suggest existed so I built my own. It is ugly but works reliably, is adjustible in all axes and works with or without steel/titanium backers.
 
 
-### Bill of Materials:
+## Bill of Materials:
+
 #### Purginator 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
 * [1 ea silicone O-Ring 10x14x2mm](https://www.amazon.de/gp/product/B07NQD6KCJ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1)
@@ -48,6 +49,7 @@ I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod
 * 2ea M5 hex nut
 * 2ea M5x12 screw
 * 2ea M5 roll in T-nuts
+
 ### Brushinator 
 * 1ea [Brush](https://www.amazon.de/Reinigung-Drahtbürste-Kunststoffgriffe-Edelstahl-Reinigungswerkzeug/dp/B0895GCSH7/ref=sxts_b2b_sx_reorder_acb_customer?content-id=amzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a%3Aamzn1.sym.f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&crid=20N7CF5QOWQE5&cv_ct_cx=messingbürste&dib=eyJ2IjoiMSJ9.z7TWS4HkcxDzHbvJIgCPzA.Y7QLxHE9fQSL7NgeJQ0xp0zurahyunnSiQJpj-z_JAI&dib_tag=se&keywords=messingbürste&pd_rd_i=B0895GCSH7&pd_rd_r=83d5e4a9-06be-4864-90a7-eb933d223a5d&pd_rd_w=HD1Tp&pd_rd_wg=Qrf1B&pf_rd_p=f4e69c76-7f1e-4be9-a990-6de7d07aaf6a&pf_rd_r=70E8QH3QH7KNRC2K66PZ&qid=1710793370&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=messingbürste%2Caps%2C100&sr=1-1-c8a51df4-6015-4603-b82a-8c2c24cf7e97&th=1)
 * 4ea brass heat insert 4mm
@@ -56,6 +58,7 @@ I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod
 * 2ea M5 hex nut
 * 2ea M5x12 button head screw
 * 2ea M5 roll in T-nuts
+
 ### Gantry Servo Mount & Pin for Filametrix Filament Cutter.
 * 1ea 15mm M3 brass standoff
 * 1ea M3x16 button head screw
@@ -63,7 +66,8 @@ I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod
 * 1ea brass heat insert 4mm
 * 1ea M3x10 button head screw
 
-## Purginator Building Instructions
+## Building Instructions
+### Purginator
 * With a ruler and a scalpel cut out a 82x20 mm strip of 1mm thick silicone sheet and punch 2.5 mm holes according to the template. This ist best done with [punch pliers](https://www.amazon.de/AmazonBasics-Leder-Lochzangen-Set-Drehlochzange-verschiedene-Aufweitwerkzeug/dp/B07W48YG15/ref=sr_1_1_ffob_sspa?crid=Q96VTO20Z6JF&dib=eyJ2IjoiMSJ9.HWjcpEgpXCPkTwFn7Ex3hMQVKTF8OVhrfR7BBim0AXNtrP4Doypsq9iqnog-XIyfIdXdWmZXm5eAmspMH-17IQhGMJ4RgyXJRH3qj4_gQ3bJLZOiAskIPYWs-z18LgVfhQdsucgHDHeOROjCnV8fbx_5tbQipQh_mngMIqCHn3XKTLn09DdfxjHAMntypskkf1c5OUrXmWF0YJBniCbq8tjya1m33LWLyLyblHhAWnE.RNZpz3uQqhsoqXTNV4xxpJ1DEOtU8145AU8xL-e6cCY&dib_tag=se&keywords=lochzange&qid=1710811490&sprefix=lochzange%2Caps%2C102&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) and the jig which can be found amongst the stl files.
 * Mount the 4 armed servo horn that came with the MG90s servo to the retraction drum using the screws which were included as well and cut the protruding arm flush
 * Insert a heat insert in each of the bearing levers
