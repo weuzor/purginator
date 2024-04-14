@@ -6,13 +6,14 @@
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
-<img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="500">
+<img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
 Installing a purginator gives you the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files.
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ## The Excarvator
 The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
+<img src="https://github.com/weuzor/purginator/blob/main/excarvator_crossection.png" width="600">
 ![Excarvator Crossection](https://github.com/weuzor/purginator/blob/main/excarvator_crossection.png)
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
 This modification requires a cutout in the backpanel!
