@@ -21,7 +21,7 @@ This modification requires a cutout in the backpanel!
 The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
 
 ## Gantry Servo Mount + Pin
-I have been looking for the gantry_servo mount for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin as for approximately 2.5 decades 
+I have been looking for the gantry_servo mount for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin as [[Happy Hare](https://github.com/moggieuk/Happy-Hare) 
 
 
 ### Bill of Materials:
