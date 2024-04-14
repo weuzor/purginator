@@ -1,5 +1,24 @@
-# The Purginator - a retractable gantry mounted purge bucket for the Voron 2
+# MY modifications for the Voron 2
 ![Purginator Render](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
+[Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
+## The Purginator
+The purginator is a gantry mounted mechanized purge bucket. In extended position  a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
+During retraction the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
+The benefits of installing a purginator are:
+* having a place to park the toolhead where oozing is no problem
+* having the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files
+* slightly faster toolchanges
+
+## The Excarvator
+The excarvator is a collecting tray with a built in screw conveyor which pushes the purged material out of the printer through a small heat trap.
+Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
+This modification requires a cutout in the backpanel!
+The benefits of installing a purginator are:
+* not to worry about emptying your purge tray
+
+## The Brushinator
+The brushinator is nothing but a cheap copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions.
+
 
 * makes mmu prints less messy and a bit faster 
 * eliminates the need for a purgetower or primetower. [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
