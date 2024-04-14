@@ -18,14 +18,10 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner).
+The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
 
-
-
-
-
-## Bill of Materials:
-### Purginator 
+### Bill of Materials:
+#### Purginator 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
 * [1 ea silicone O-Ring 10x14x2mm](https://www.amazon.de/gp/product/B07NQD6KCJ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1)
 * [1ea MG90s 180deg Servo](https://www.amazon.de/gp/product/B086V3VP72/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)
