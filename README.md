@@ -2,6 +2,7 @@
 ![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
 
 ## Introduction
+
 ### The Purginator
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
@@ -59,6 +60,13 @@ I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod
 * 2ea M5 hex nut
 * 2ea M5x12 button head screw
 * 2ea M5 roll in T-nuts
+
+### Excarvator
+* 1ea M3x30 button head screw
+* [2 ea silicone O-Ring 10x14x2mm](https://www.amazon.de/gp/product/B07NQD6KCJ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1)
+* 1ea MG90s 360deg Servo (Aliexpress)
+* 2ea brass heat insert 4mm
+* 1ea M3x10 button head screw
 
 ### Gantry Servo Mount & Pin for Filametrix Filament Cutter.
 * 1ea 15mm M3 brass standoff
