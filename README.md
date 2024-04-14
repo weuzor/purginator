@@ -1,10 +1,11 @@
 # Voron 2 Modifications 
 ![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
-[Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
+
 ## Introduction
 ### The Purginator
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
+[Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 
 <img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
