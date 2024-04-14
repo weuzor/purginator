@@ -1,0 +1,318 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #####################################################\
+# HARDWARE SETUP\
+#####################################################\
+\
+[servo purginator]\
+pin: PB7                           ## !!! ADJUST  !!! ##\
+maximum_servo_angle: 180\
+minimum_pulse_width: 0.00075\
+maximum_pulse_width: 0.00225\
+initial_angle: 100\
+\
+#####################################################\
+# PURGINATOR MACROS\
+#####################################################\
+\
+[gcode_macro purginator_dock]\
+description: Dock to the purginator\
+variable_purge_pos_x:      20.5   \
+variable_purge_pos_y:      358  \
+variable_travel_speed:     10000\
+gcode:\
+  \{% if "xy" in printer.toolhead.homed_axes %\}\
+    G1 X\{purge_pos_x\} Y\{purge_pos_y\} F\{travel_speed|float\}\
+    _purginator_deploy      \
+  \{% else %\}\
+    \{ action_raise_error("Please home XY first!") \}\
+    M117 Please home XY first!\
+  \{% endif %\}\
+\
+[gcode_macro purginator_undock]\
+description: Undock from the purginator\
+gcode:\
+  _purginator_retract\
+  \
+  \
+[gcode_macro purginator_purge]\
+description: Purge\
+variable_minimum_purge_temp: 200\
+gcode:\
+  SAVE_GCODE_STATE NAME=purginator_purge\
+  \{% set distance = params.DIST|default("5")|float %\}\
+  \{% set purgespeed = params.SPEED|default("120")|int %\}\
+  \{% set waittime = params.DWELL|default("1000")|int %\}\
+  \{% set undock = params.UNDOCK|default("1")|int %\}\
+  \
+  \{% if printer.extruder.temperature >= minimum_purge_temp %\}\
+    purginator_dock\
+    mmu_sync_gear_motor\
+    G1 E\{distance\} F\{purgespeed\} # purge\
+    G4 P\{waittime\} # wait\
+    \{% if undock == 1 %\}\
+      purginator_undock\
+    \{% endif %\}  \
+  \{% else %\}\
+    \{ action_raise_error("Nozzle Temperature too low for purge!") \}\
+    M117 Nozzle Temperature too low for purge!\
+  \{% endif %\}\
+\
+[gcode_macro _purginator_deploy]\
+description: Servo move to deploy the purginator\
+variable_servo_angle_deployed: 10\
+variable_servo_travel_time: 200\
+gcode:\
+  SET_SERVO SERVO=purginator ANGLE=\{servo_angle_deployed\}\
+  G4 P\{servo_travel_time\}\
+\
+[gcode_macro _purginator_retract]\
+description: Servo move to retract the purginator and drop the purged filament\
+variable_servo_angle_retracted: 180\
+variable_servo_travel_time: 300\
+variable_servo_angle_no_jitter: 120\
+gcode:\
+  SET_SERVO SERVO=purginator ANGLE=\{servo_angle_retracted\} #  move servo to fully retracted position\
+  G4 P\{servo_travel_time\}\
+  SET_SERVO SERVO=purginator ANGLE=\{servo_angle_no_jitter\} # move servo to a position where no jitter occurs\
+  # SET_SERVO SERVO=purginator WIDTH=0 # disable servo\
+\
+\
+#####################################################\
+# BRUSHINATOR MACROS\
+#####################################################\
+\
+[gcode_macro brushinator_brush]\
+description: Brush the nozzle\
+variable_travel_speed:       10000	         # Travel speed in mm/min\
+variable_wipe_speed:         10000	         # Wipe speed in mm/min.\
+variable_brush_start:           44           # x coordinate of lh bristles edge\
+variable_brush_end:             80           # x coordinate of rh bristles edge\
+variable_brush_margin:           2           # x distance between brush and wipe startpoint and endpoint respectively\
+variable_brush_front:        352.3           # y coordinate of the britles front edge (where the brushing starts)   \
+\
+gcode:\
+  \{% set wipes = params.WIPES|default("2")|int %\}\
+  \{% set zigzags = params.ZIGZAGS|default("2")|int %\}\
+  \{% set return_to_purginator = params.DOCK|default("1")|int %\}\
+  \{% set brush_width = brush_end - brush_start %\}\
+  \{% set brush_depth = printer.configfile.config["stepper_y"]["position_max"]|float - brush_front - 0.5 %\}\
+  \
+   \
+   # Check for homed axes.\
+   \{% if "xy" in printer.toolhead.homed_axes %\}\
+\
+      ## Go to wipe start position\
+      purginator_undock\
+      G1 X\{brush_start-brush_margin\} Y\{brush_front + (brush_depth / 2)\} F\{travel_speed\}\
+           \
+      ## Perform wipe(s)\
+      \{% for wipe in range(0, (wipes)) %\}\
+         \{% for zig in range(0, (zigzags)) %\}\
+           G1 X\{brush_start + (brush_width/zigzags/2)*(zig*2)\} Y\{brush_front\} F\{wipe_speed\}\
+           G1 X\{brush_start + (brush_width/zigzags/2)*(zig*2+1)\} Y\{brush_front+brush_depth\} F\{wipe_speed\}\
+         \{% endfor %\}\
+         G1 X\{brush_start+brush_width+brush_margin\} Y\{brush_front + (brush_depth / 2)\} F\{travel_speed\}\
+         \{% for zag in range(0, (zigzags)) %\}\
+           G1 X\{brush_start + (brush_width/zigzags/2)*((zigzags-zag)*2)\} Y\{brush_front\} F\{wipe_speed\}\
+           G1 X\{brush_start + (brush_width/zigzags/2)*((zigzags-zag)*2-1)\} Y\{brush_front+brush_depth\} F\{wipe_speed\}\
+         \{% endfor %\}\
+         G1 X\{brush_start-brush_margin\} Y\{brush_front + (brush_depth / 2)\} F\{travel_speed\}\
+      \{% endfor %\}\
+\
+      \{% if return_to_purginator == 1 %\}\
+        purginator_dock\
+      \{% endif %\}\
+      \
+      # RESTORE_GCODE_STATE NAME=brushinator_brush\
+      \
+   \{% else %\}\
+\
+      \{ action_raise_error("Please home XY first!") \}\
+      M117 Please home XY first!\
+\
+   \{% endif %\}\
+\
+[gcode_macro brushinator_nozzle_cooldown]\
+description: Repeatedly brushes the nozzle until a given temperature is reached in order to cool faster and keep the nozzle clean.\
+gcode:\
+  \{% set COOLDOWN_TEMP = params.TEMP|default("150")|int %\}\
+  #\{% set ACTUAL_TEMP = printer.extruder.temperature %\}\
+  \{% set TARGET_TEMP = printer.extruder.target %\}\
+\
+  \{% if COOLDOWN_TEMP < TARGET_TEMP %\}\
+    SET_HEATER_TEMPERATURE HEATER=extruder TARGET=\{COOLDOWN_TEMP\}\
+  \{% endif %\}\
+   \{% for wipe in range(0, 50) %\}\
+     _brushinator_twipe TARGET=\{COOLDOWN_TEMP\}\
+   \{% endfor %\}\
+   purginator_dock\
+\
+[gcode_macro _brushinator_twipe]\
+gcode:\
+  \{% set ACTUAL_TEMP = printer.extruder.temperature %\}\
+  \{% set TARGET_TEMP = params.TARGET %\}\
+  \{% if ACTUAL_TEMP|float > TARGET_TEMP|float %\}\
+    brushinator_brush WIPES=1 ZIGZAGS=20 DOCK=0\
+  \{% endif %\}\
+\
+#####################################################\
+# IMPLEMENTATION OVERRIDES\
+#####################################################\
+\
+# QUAD GANTRY LEVEL\
+[gcode_macro QUAD_GANTRY_LEVEL]\
+rename_existing: QUAD_GANTRY_LEVEL_ORIGINAL\
+gcode:\
+    _purginator_retract\
+    QUAD_GANTRY_LEVEL_ORIGINAL\
+    purginator_dock\
+\
+# HOMING\
+[homing_override]\
+axes: xyz\
+gcode:\
+  \{% set home_all = 'X' not in params and 'Y' not in params and 'Z' not in params %\}\
+  SET_PIN PIN=Caselight VALUE=1 # Lights ON\
+  purginator_undock\
+  \{% if home_all or 'X' in params %\}\
+    _HOME_X # Home X\
+  \{% endif %\}  \
+  \{% if home_all or 'Y' in params %\}\
+    _HOME_Y # Home Y\
+  \{% endif %\}  \
+  \{% if home_all or 'Z' in params %\}\
+    G90\
+    brushinator_nozzle_cooldown TEMP=150\
+    brushinator_brush WIPES=2 ZIGZAGS=6 DOCK=0\
+    G1 X175 Y175 F12000  ## Change this.  Should home to the z endstop pin if you don't use TAP.  Also, this is for a Voron 2.4 350.  \
+    G28 Z   # Home Z\
+    G1 Z10 F2400 \
+  \{% endif %\}\
+  G90\
+  purginator_dock\
+\
+#####################################################\
+# HAPPY HARE OVERRIDES\
+#####################################################\
+\
+[gcode_macro _MMU_PARK]\
+#rename_existing: _MMU_PARK_ORIGINAL\
+description: Park toolhead safely away from print\
+\
+# -------------------------- Internal Don't Touch -------------------------\
+variable_saved_xyz: 0, 0, 0\
+variable_saved_pos: False\
+variable_next_xy: 0, 0\
+variable_next_pos: False\
+variable_initial_park_z: 9999\
+\
+gcode:\
+    \{% set vars = printer['gcode_macro _MMU_SEQUENCE_VARS'] %\}\
+    \{% set park_z_hop = params.Z_HOP|default(vars.park_z_hop|default(1))|float %\}\
+    \{% set enable_park = vars.enable_park|default(true)|lower == 'true' %\}\
+    \{% set enable_park_runout = vars.enable_park_runout|default(true)|lower == 'true' %\}\
+    \{% set enable_park_standalone = vars.enable_park_standalone|default(true)|lower == 'true' %\}\
+    \{% set x, y = vars.park_xy|default([50,50])|map('float') %\}\
+    \{% set travel_speed = vars.travel_speed|default(200)|float * 60 %\}\
+    \{% set lift_speed = vars.lift_speed|default(15)|float * 60 %\}\
+    \{% set pos = printer.gcode_move.gcode_position %\}\
+    \{% set origin = printer.gcode_move.homing_origin %\}\
+    \{% set max = printer.toolhead.axis_maximum %\}\
+    \{% set z = [[pos.z, initial_park_z]|min + park_z_hop, max.z - origin.z]|min %\}\
+\
+    # Useful state for customizing operations depending on mode\
+    \{% set runout = printer.mmu.runout %\}\
+    \{% set printing = printer.mmu.print_state == 'printing' %\}\
+\
+    \{% if (enable_park and printing and not runout) or (enable_park_runout and runout) or (enable_park_standalone and not printing) %\}\
+        \{% if not 'xy' in printer.toolhead.homed_axes %\}\
+            RESPOND MSG="Cannot park because XY not homed"\
+        \{% else %\}\
+            G90					# Absolute\
+            \{% if park_z_hop > 0 %\}\
+                \{% if not 'z' in printer.toolhead.homed_axes %\}\
+                    RESPOND MSG="Skipping z_hop because Z not homed"\
+                \{% else %\}\
+                    \{% if initial_park_z >= 9999 %\}\
+                        SET_GCODE_VARIABLE MACRO=_MMU_PARK VARIABLE=initial_park_z VALUE=\{pos.z\}\
+                    \{% endif %\}\
+                    \
+                    \{% if (printing) %\}\
+                      ## with Anti Stringing Move\
+                      \{% set th = printer.toolhead %\}\
+                      \{% set x_safe_antistring = th.position.x + 20 * (1 if th.axis_maximum.x - th.position.x > 20 else -1) %\}\
+                      \{% set y_safe_antistring = th.position.y + 20 * (1 if th.axis_maximum.y - th.position.y > 20 else -1) %\}\
+                      \{% set z_safe_antistring = [th.position.z + z, th.axis_maximum.z]|min %\}\
+                      \{% if (th.position.y != y ) %\}\
+                        G1 E-5.0 F1800                 ; retract filament\
+                        G0 X\{x_safe_antistring\} Y\{y_safe_antistring\} Z\{z_safe_antistring\} F20000  ; move nozzle to remove stringing\
+                      \{% endif %\}  \
+                    \{% else %\}\
+                      ## original\
+                      G1 Z\{z\} F\{lift_speed\}	# Z lift applied first  \
+                    \{% endif %\}\
+                \{% endif %\}\
+            \{% endif %\}\
+            G1 X\{x\} Y\{y\} F\{travel_speed\}	# Move to park position\
+            purginator_dock\
+        \{% endif %\}\
+    \{% endif %\}\
+\
+\
+[gcode_macro _MMU_POST_LOAD]\
+#rename_existing: _MMU_POST_LOAD_ORIGINAL\
+description: Optional post load routine for filament change\
+gcode:\
+    \{% set vars = printer['gcode_macro _MMU_SEQUENCE_VARS'] %\}\
+    \{% set timelapse = vars.timelapse|default(false)|lower == 'true' %\}\
+    \{% set mmu_paused = printer.mmu.is_locked %\}\
+\
+    SAVE_GCODE_STATE NAME=MMU_POST_LOAD_state\
+\
+    \{% if timelapse %\}\
+        TIMELAPSE_TAKE_FRAME\
+    \{% endif %\}\
+\
+    purginator_purge DIST=40 SPEED=400 DWELL=0 UNDOCK=0\
+    purginator_purge DIST=10 SPEED=60 DWELL=500 UNDOCK=1\
+    \
+    # A good place to implement custom purging logic and/or nozzle cleaning\
+    # prior to returning to print/wipetower\
+    \{vars.user_post_load_extension|default("")\}\
+\
+    \{% if not mmu_paused %\}\
+        _MMU_RESTORE_POSITION\
+    \{% endif %\}\
+\
+    RESTORE_GCODE_STATE NAME=MMU_POST_LOAD_state\
+\
+[gcode_macro _FILAMETRIX_DO_CUT_MOTION]\
+description: Helper to do a single horizontal cut movement\
+gcode:\
+    \{% set pin_park_x_loc = params.PIN_PARK_X_LOC | float %\}\
+    \{% set vars = printer['gcode_macro _MMU_CUT_TIP_VARS'] %\}\
+\
+    \{% set pin_loc_x_compressed = vars['pin_loc_x_compressed']|float %\}\
+    \{% set cut_fast_move_fraction = vars['cut_fast_move_fraction']|float %\}\
+    \{% set cut_fast_move_speed = vars['cut_fast_move_speed']|float %\}\
+    \{% set cut_slow_move_speed = vars['cut_slow_move_speed']|float %\}\
+    \{% set cut_dwell_time = vars['cut_dwell_time']|float %\}\
+    \{% set evacuate_speed = vars['evacuate_speed']|float %\}\
+    \{% set rip_length = vars['rip_length']|float %\}\
+    \{% set rip_speed = vars['rip_speed']|float %\}\
+    \{% set fast_slow_transition_loc = (pin_loc_x_compressed - pin_park_x_loc) * cut_fast_move_fraction + pin_park_x_loc|float %\}\
+    purginator_undock\
+    G1 X\{fast_slow_transition_loc\} F\{cut_fast_move_speed * 60\} # Fast move to initiate contact of the blade with filament\
+    G1 X\{pin_loc_x_compressed\} F\{cut_slow_move_speed * 60\} # Do the cut in slow move\
+    G4 P\{cut_dwell_time\}\
+    \{% if rip_length > 0 %\}\
+        G1 E-\{rip_length\} F\{rip_speed * 60\}\
+    \{% endif %\}\
+    G1 X\{pin_park_x_loc\} F\{evacuate_speed * 60\} # Evacuate\
+    brushinator_brush WIPES=2 ZIGZAGS=2 DOCK=1}
