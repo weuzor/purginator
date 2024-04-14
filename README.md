@@ -3,12 +3,12 @@
 [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
 
 ## The Purginator
-The purginator is a gantry mounted mechanized purge bucket. In extended position  a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
-During retraction the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
+The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
+In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
+When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 The benefits of installing a purginator are:
-* having a place to park the toolhead where oozing is no problem
 * having the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files
-* having a place to park the toolhead where oozing is no problem
+* having a place to park the toolhead for warmup/cooldown where oozing is no problem
 * slightly faster toolchanges
 
 ## The Excarvator
@@ -17,15 +17,11 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-The brushinator is nothing but a cheap copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions.
+The brushinator is nothing but a cheap copy of [this gantry mounted brushholder](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner).
 
 
-* makes mmu prints less messy and a bit faster 
-* eliminates the need for a purgetower or primetower. [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
-* comes with his friend brushinator, a poor copy of [this design](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which matches the purginator dimensions
-* comes with an adjustable mount for the filametrix cutting mod gantry servo
-* washes your laundry
-* 100% vegan
+
+
 
 ## Bill of Materials:
 ### Purginator 
