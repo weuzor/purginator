@@ -1,5 +1,5 @@
 # Voron 2 Modifications 
-![Purginator Render](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
+![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
 [Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
 
 ## The Purginator
@@ -22,7 +22,7 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
+The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
 
 <img src="https://github.com/weuzor/purginator/blob/main/brushinator_crossection.png" width="500">
 
