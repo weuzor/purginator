@@ -8,18 +8,17 @@ In extended position a strip of silicone with a hole is bent into a loop like sh
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 ![Purginator Crossection](https://github.com/weuzor/purginator/blob/main/purginator_crossection.png)
 
-The benefits of installing a purginator are:
-* having the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files
-* having a place to park the toolhead for warmup/cooldown where oozing is no problem
-* slightly faster toolchanges
+Installing a purginator gives you the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files.
+It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ## The Excarvator
-The excarvator is a collecting tray with a built in screw conveyor which pushes the purged material out of the printer through a small heat trap.
+The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
+The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-The brushinator is nothing but a cheap copy of [this gantry mounted brushholder](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner).
+The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner).
 
 
 
