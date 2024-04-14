@@ -20,6 +20,10 @@ This modification requires a cutout in the backpanel!
 ## The Brushinator
 The brushinator is nothing but a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) which can also be used instead.
 
+## Gantry Servo Mount + Pin
+I have been looking for the gantry_servo mount for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin as for approximately 2.5 decades 
+
+
 ### Bill of Materials:
 #### Purginator 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
