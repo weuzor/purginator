@@ -6,6 +6,7 @@
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
+
 The benefits of installing a purginator are:
 * having the option to print multi material without purge/prime tower thus keeping the entire printbed available for model files
 * having a place to park the toolhead for warmup/cooldown where oozing is no problem
