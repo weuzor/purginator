@@ -4,13 +4,13 @@
 ## Introduction
 ### The Purginator
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
-In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging.
-[Watch a video of a 15 min 3 colour TEsT print](https://youtu.be/IaCVgWm7dVc)
+In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 
 <img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
 
-Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files.
+Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files. 
+[Watch a proof of concept video of a short 3 colour testprint with the purginator](https://youtu.be/IaCVgWm7dVc). 
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ### The Excarvator
