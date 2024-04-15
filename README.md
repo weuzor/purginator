@@ -1,4 +1,6 @@
-# Voron 2 Modifications 
+# Voron 2 Modifications
+
+
 
 ![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
 
@@ -12,7 +14,7 @@ When retracting the silicone strip gets stretched out. This motion wipes the noz
 <img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
 
 Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files. 
-[Watch a proof of concept video of a short 3 colour testprint with the purginator](https://youtu.be/IaCVgWm7dVc). 
+[Watch a proof of concept video of a short 3 colour testprint with the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ### The Excarvator
