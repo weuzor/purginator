@@ -67,6 +67,11 @@ I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod
 * 1ea MG90s 360deg Servo (Aliexpress)
 * 2ea brass heat insert 4mm
 * 1ea M3x10 button head screw
+* 1ea ballbearing 3x10x4mm
+* 1ea ballbearing 10x22x6mm
+* 2ea 2x10 self tapping screw
+* 2ea M2.5x16 button head screw
+* 2ea M3x16 button head screw
 
 ### Gantry Servo Mount & Pin for Filametrix Filament Cutter.
 * 1ea 15mm M3 brass standoff
