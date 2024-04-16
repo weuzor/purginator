@@ -31,7 +31,7 @@ The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://
 
 After installing the Filametrix Cutting Mod I realized that the fixed pin interferes with the Stealthburner when moving around the top left corner of the printbed which is something I could not live with.
 Since there is a config option for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin in the [Happy Hare Software](https://github.com/moggieuk/Happy-Hare) I began my search for the appropriate STL files.
-A few hours later I gave up and built my own which took considerably less time. It is adjustable in all axes and fits the gantry with or without backers.
+A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
 
 ## Bill of Materials:
 
