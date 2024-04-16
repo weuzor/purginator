@@ -7,31 +7,32 @@
 ## Introduction
 
 ### The Purginator
-The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
-In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
-When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 
 <img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
 
+The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
+In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
+When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files. 
 [Watch a proof of concept video of a short 3 colour testprint with the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ### The Excarvator
-The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
-The screw conveyor is powered by a MG90S 360deg Servo.
 
 <img src="https://github.com/weuzor/purginator/blob/main/excarvator_crossection.png" width="600">
-
+The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
+The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
 This modification requires a cutout in the backpanel!
 
 ### The Brushinator
-The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 <img src="https://github.com/weuzor/purginator/blob/main/brushinator_crossection.png" width="500">
+The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ### Gantry Servo Mount + Pin
+
+<img src="https://github.com/weuzor/purginator/blob/main/gantry_servo_holder.png" width="500">
 I could not find the gantry_servo mount for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin as the [Happy Hare](https://github.com/moggieuk/Happy-Hare) config options would suggest existed so I built my own. It is ugly but works reliably, is adjustible in all axes and works with or without steel/titanium backers.
 
 
