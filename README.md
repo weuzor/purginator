@@ -22,7 +22,7 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-<img src="https://github.com/weuzor/purginator/blob/main/brushinator_crossection.png" width="500">
+<img src="https://github.com/weuzor/purginator/purginator2/blob/main/brushinator_crossection.png" width="500">
 
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
