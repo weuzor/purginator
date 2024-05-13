@@ -33,6 +33,10 @@ After installing the Filametrix Cutting Mod I realized that the fixed pin interf
 Since there is a config option for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin in the [Happy Hare Software](https://github.com/moggieuk/Happy-Hare) I began my search for the appropriate STL files.
 A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
 
+## Purginator 2
+<img src="https://github.com/weuzor/purginator2/blob/main/p2.png" width="250">
+
+
 ## Bill of Materials:
 
 ### Purginator 
