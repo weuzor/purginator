@@ -40,8 +40,8 @@ These are my latest versions of the purginator and excarvator. The purginator 2 
 In succession the parked toolhead is now close enough to depress the filametrix filament cutter lever with a powerful enough gantry servo instead of moving the toolhead against a pin.
 Additionally the design is more rigid and has a convenient z adjustment by thumb screw. Furthermore the brush is now integrated making this design more compact, stealthier and lighter than the previous one.
 The excarvator 2 has a lower profile and wider tray to acommodate the purginator 2. Installing these mods limits the gantry movement in the rear left corner to 4mm below printbed surface.
-This is practically irrelevant, however if a quad gantry levelling is triggered when the rear left corner is the lowest point with more than 4mm difference the  purginator may run into the excarvator.
-They won't be damaged but I am sure this does not make the z belts any better so please keep that in mind until a safety mechanism has been incorporated. Working on it.
+This is practically irrelevant, however if a quad gantry levelling is triggered when the rear left corner is the lowest point by more than 4mm  the  purginator may run into the excarvator.
+They won't be damaged but I am sure this would sound terrible and does not make the z belts any better so please keep that in mind until a safety mechanism has been incorporated. Working on it.
 
 ## Bill of Materials:
 
