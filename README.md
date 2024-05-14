@@ -34,7 +34,7 @@ Since there is a config option for a retracting [Filametrix Cutting Mod](https:/
 A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
 
 ## Purginator 2
-<img src="https://github.com/weuzor/purginator/blob/main/p2.png" width="250">
+<img src="https://github.com/weuzor/purginator/blob/main/purginator2.png" width="600">
 
 
 ## Bill of Materials:
