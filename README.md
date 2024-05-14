@@ -22,8 +22,8 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 ## The Brushinator
-<img src="https://github.com/weuzor/purginator/purginator2/blob/main/brushinator_crossection.png" width="500">
 
+<img src="https://github.com/weuzor/purginator/purginator2/blob/main/brushinator_crossection.png" width="500">
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ## Gantry Servo Mount + Pin
@@ -34,8 +34,9 @@ Since there is a config option for a retracting [Filametrix Cutting Mod](https:/
 A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
 
 ## Purginator 2
-<img src="https://github.com/weuzor/purginator/blob/main/purginator2.png" width="600">
 
+<img src="https://github.com/weuzor/purginator/blob/main/purginator2.png" width="600">
+In order to 
 
 ## Bill of Materials:
 
