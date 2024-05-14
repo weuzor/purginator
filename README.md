@@ -34,7 +34,7 @@ Since there is a config option for a retracting [Filametrix Cutting Mod](https:/
 A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
 
 ## Purginator 2 + Excarvator 2
-<img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="600"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="600">
 
 The purginator 2 is my latest development of the purginator. It is now mounted to the A Stepper Motor which places purge hole at X = 2. In succession the toolhead is now close enough to depress the filametrix filament cutter with a powerful enough gantry servo instead of moving the toolhead against a pin (my next project). Additionally the design is more rigid and has a convenient z adjustment by thumb screw. Furthermore the brush is now integrated making this design is more compact, stealthier and lighter than the previous one.  
 
