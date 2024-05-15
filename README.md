@@ -36,7 +36,7 @@ A few hours later I gave up and built my own. It is adjustable in all axes and f
 ## Purginator 2 + Excarvator 2
 <img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="500"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="500">
 
-These are my latest versions of the purginator and excarvator. The purginator 2 is now mounted to the A Stepper Motor which places the purge hole at roughly 2mm on the x axis.
+These are my latest versions of the purginator and excarvator. The purginator 2 is now mounted to the B Drive Stepper Motor which places the purge hole at roughly 2mm on the x axis.
 In succession the parked toolhead is now close enough to depress the filametrix filament cutter lever with a powerful enough gantry servo instead of moving the toolhead against a pin.
 Additionally the design is more rigid and has a convenient z adjustment by thumb screw.
 Instead of the modular purginator/brushinator design which was necessary to fit all printer sizes this version has an integrated brushholder and is the same installation for all printer sizes.
