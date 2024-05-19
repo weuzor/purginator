@@ -38,12 +38,12 @@ A few hours later I gave up and built my own. It is adjustable in all axes and f
 
 These are my latest versions of the purginator and excarvator. The purginator 2 is now mounted to the B Drive Stepper Motor which places the purge hole at roughly 2mm on the x axis.
 In succession the parked toolhead is now close enough to depress the filametrix filament cutter lever with a powerful enough gantry servo instead of moving the toolhead against a pin.
-Additionally the design is more rigid and has a convenient z adjustment by thumb screw.
+Additionally the design is more rigid and has a convenient z adjustment by thumb screw as well as an optional push down servo (micro linear servo) in an attempt to reduce or eliminate wear of the silicone strip. 
 Instead of the modular purginator/brushinator design which was necessary to fit all printer sizes this version has an integrated brushholder and is the same installation for all printer sizes.
 Also more compact, stealthier and lighter than the previous one.
 The excarvator 2 has a lower profile and wider tray than the previous version to acommodate the purginator 2. Installing these mods limits the gantry movement to 4mm below printbed surface.
 This is practically irrelevant, however if a z-homing or quad gantry levelling is triggered and the rear left corner is the lowest point by more than 4mm  the  purginator may run into the excarvator.
-They won't be damaged but I am sure this would sound terrible and does not make the z belts any better so please keep that in mind until a safety mechanism has been incorporated. Working on it.
+They won't be damaged but I am sure this would sound terrible and does not make the z belts any better so mounting holes for a saftety microswitch has been added. 
 
 
 ## Bill of Materials:
