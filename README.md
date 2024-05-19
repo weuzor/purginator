@@ -36,14 +36,19 @@ A few hours later I gave up and built my own. It is adjustable in all axes and f
 ## Purginator 2 + Excarvator 2
 <img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="500"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="500">
 
-These are my latest versions of the purginator and excarvator. The purginator 2 is now mounted to the B Drive Stepper Motor which places the purge hole at roughly 2mm on the x axis.
+These are the latest versions of the purginator and excarvator.
+
+The purginator 2 is now mounted to the B Drive Stepper Motor which places the purge hole at roughly 2mm on the x axis.
 In succession the parked toolhead is now close enough to depress the filametrix filament cutter lever with a powerful enough gantry servo instead of moving the toolhead against a pin.
-Additionally the design is more rigid and has a convenient z adjustment by thumb screw as well as an optional push down servo (micro linear servo) in an attempt to reduce or eliminate wear of the silicone strip. 
-Instead of the modular purginator/brushinator design which was necessary to fit all printer sizes this version has an integrated brushholder and is the same installation for all printer sizes.
-Also more compact, stealthier and lighter than the previous one.
-The excarvator 2 has a lower profile and wider tray than the previous version to acommodate the purginator 2. Installing these mods limits the gantry movement to 4mm below printbed surface.
-This is practically irrelevant, however if a z-homing or quad gantry levelling is triggered and the rear left corner is the lowest point by more than 4mm  the  purginator may run into the excarvator.
-They won't be damaged but I am sure this would sound terrible and does not make the z belts any better so mounting holes for a saftety microswitch has been added. 
+The new design is more rigid and features a MGN7 Rail to allow for z movement.
+A height adjustment thumb screw allows convenient adjustment of the spring loaded z position.
+With an optional push down servo it is now possible to lower the purginator before docking. This is an attempt to reduce or eliminate wear of the silicone strip which is caused by the nozzle rubbing against the silicone strip during the docking process.
+
+The excarvator 2 has a lower profile and wider tray than the previous version to acommodate the purginator 2.
+Installing this mod limits the gantry movement to 4mm below printbed surface.
+For normal operation this is irrelevant, however if the gantry is moved by hand when motors are off and left with the rear left corner being the lowest point by more than 4mm
+and a z-homing or quad gantry levelling is triggered the purginator2 may run into the excarvator2. 
+To prevent this mounting holes for a saftety microswitch have been added to trigger an emergency shutdown in this case. 
 
 
 ## Bill of Materials:
