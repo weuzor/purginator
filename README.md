@@ -1,5 +1,7 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
 
+All designs hereafter were made for a 
+
 
 ## The Purginator
 
@@ -18,16 +20,23 @@ It also provides a place to park the toolhead for warmup/cooldown where oozing i
 ## The Excarvator
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Excarvator.png" width="600">
-The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
+
+No more 
+The excarvator is a collecting tray for the purged filament dropped by the purginator.
+It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
-This modification requires a cutout in the backpanel!
-
+This modification requires a cutout in the backpanel. It also restricts z movement to 4 mm below print surface. 
+For normal operation this is irrelevant, however if a Z-Homing or Quad Gantry Levelling is performed and the rear left gantry corner is lower than the others by more than 4 mm (e. g. after motors were off and the gantry was moved by whatever cause) the purginator mount would collide with the excarvator. 
+To prevent this the excarvator has a safety microswitch to trigger an emergency shutdown in this case.
 
 ## [Filametrix](https://github.com/sorted01/Filametrix) Depressor 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Depressor.png" width="600">
 
-The Filametrix Depressor is a holder for a 
+Cut without oozing.
+This mod places a strong enough MG996R Servo at a location where it does not interfere with the toolhead but can depress the filametrix cutter lever with its servo arm.
+Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
+
 
 ## Purginator 2 + Excarvator 2
 <img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="500"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="500">
