@@ -1,6 +1,6 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
 
-All designs hereafter were made for a 
+
 
 
 ## The Purginator
@@ -36,21 +36,4 @@ To prevent this the excarvator has a safety microswitch to trigger an emergency 
 Cut without oozing.
 This mod places a strong enough MG996R Servo at a location where it does not interfere with the toolhead but can depress the filametrix cutter lever with its servo arm.
 Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
-
-
-## Purginator 2 + Excarvator 2
-<img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="500"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="500">
-
-These are the latest versions of the purginator and excarvator.
-
-The purginator 2 is now mounted to the B Drive Stepper Motor which places the purge hole at roughly 2mm on the x axis.
-In succession the parked toolhead is now close enough to depress the filametrix filament cutter lever with a powerful enough gantry servo instead of moving the toolhead against a pin so the nozzle can remain parked for the entire toolchange.
-The new design is more rigid and features a MGN7 Rail to allow for independent z movement. The spring loaded Z position can be adjusted by thumb screw. 
-With an optional push down servo it is now possible to lower the purginator before docking. This is an attempt to reduce or eliminate wear of the silicone strip which is caused by the nozzle rubbing against the silicone strip during the docking process.
-
-The excarvator 2 has a lower profile and wider tray than the previous version to acommodate the purginator 2.
-Installing this mod limits the gantry movement to 4mm below printbed surface.
-For normal operation this is irrelevant, however if the gantry is moved by hand when motors are off and left with the rear left corner being the lowest point by more than 4mm
-and a z-homing or quad gantry levelling is triggered the purginator collides with the excarvator. 
-To prevent this a safety microswitch has been added to trigger an emergency shutdown in this case. 
 
