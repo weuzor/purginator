@@ -4,7 +4,7 @@
 
 ## The Purginator
 
-<img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png" width="600">
+<img src="https://github.com/weuzor/purginator/PIX/Purginator.png" width="600">
 
 PIX/Purginator.png
 
