@@ -27,9 +27,7 @@ This modification requires a cutout in the backpanel!
 ## [Filametrix](https://github.com/sorted01/Filametrix) Depressor 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Depressor.png" width="600">
 
-After installing the Filametrix Cutting Mod I realized that the fixed pin interferes with the Stealthburner when moving around the top left corner of the printbed which is something I could not live with.
-Since there is a config option for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin in the [Happy Hare Software](https://github.com/moggieuk/Happy-Hare) I began my search for the appropriate STL files.
-A few hours later I gave up and built my own. It is adjustable in all axes and fits the gantry with or without backers.
+The Filametrix Depressor is a holder for a 
 
 ## Purginator 2 + Excarvator 2
 <img src="https://github.com/weuzor/purginator/blob/main/p2+e2.png" width="500"> <img src="https://github.com/weuzor/purginator/blob/main/p2installed.png" width="500">
