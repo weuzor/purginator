@@ -4,9 +4,9 @@
 
 ## The Purginator
 
-<img src="https://github.com/weuzor/purginator/PIX/Purginator.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png" width="600">
 
-PIX/Purginator.png
+[PIX/Purginator.png](https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png)
 
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
