@@ -8,7 +8,6 @@
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png" width="600">
 
 
-
 The purginator is a mechanized purge bucket for Voron 2 3d Printers.
 
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
@@ -36,4 +35,5 @@ To prevent this the excarvator has a safety microswitch to trigger an emergency 
 Cut without oozing.
 This mod places a strong enough MG996R Servo at a location where it does not interfere with the toolhead but can depress the filametrix cutter lever with its servo arm.
 Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
+Comes with two mounting options for gantries with backers or without.
 
