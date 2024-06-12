@@ -24,7 +24,7 @@ Once outside the material can either be collected in a suitable container at the
 This modification requires a cutout in the backpanel!
 
 
-## [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) Depressor 
+## [Filametrix](https://github.com/sorted01/Filametrix) Depressor 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Depressor.png" width="600">
 
 After installing the Filametrix Cutting Mod I realized that the fixed pin interferes with the Stealthburner when moving around the top left corner of the printbed which is something I could not live with.
