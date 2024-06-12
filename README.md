@@ -1,6 +1,6 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
 
-
+All modifications are designed for a Voron 2.4 350mm sized 3d Printer fitted with Voron Tap, sensorless homing and umbilical CW2 toolhead with Filametrix Mod. 
 
 
 ## The Purginator
@@ -9,7 +9,7 @@
 
 
 The purginator is a mechanized purge bucket for Voron 2 3d Printers.
-
+It is 
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available for model files. 
@@ -20,7 +20,7 @@ It also provides a place to park the toolhead for warmup/cooldown where oozing i
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Excarvator.png" width="600">
 
-No more 
+Forget emptying the trash without regrets.
 The excarvator is a collecting tray for the purged filament dropped by the purginator.
 It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
