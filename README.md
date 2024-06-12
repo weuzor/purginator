@@ -6,7 +6,7 @@
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png" width="600">
 
-[PIX/Purginator.png](https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png)
+
 
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
@@ -17,19 +17,15 @@ It also provides a place to park the toolhead for warmup/cooldown where oozing i
 
 ## The Excarvator
 
-<img src="https://github.com/weuzor/purginator/blob/main/excarvator_crossection.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/PIX/Excarvator.png" width="600">
 The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
 This modification requires a cutout in the backpanel!
 
-## The Brushinator
-
-<img src="https://github.com/weuzor/purginator/blob/main/pix/brushinator_crossection.png" width="500">
-The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ## Gantry Servo Mount + Pin
-<img src="https://github.com/weuzor/purginator/blob/main/gantry_servo_holder.png" width="250">
+<img src="https://github.com/weuzor/purginator/blob/main/PIX/Depressor.png" width="600">
 
 After installing the Filametrix Cutting Mod I realized that the fixed pin interferes with the Stealthburner when moving around the top left corner of the printbed which is something I could not live with.
 Since there is a config option for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin in the [Happy Hare Software](https://github.com/moggieuk/Happy-Hare) I began my search for the appropriate STL files.
