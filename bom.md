@@ -1,5 +1,8 @@
 # BOM (work in progress)
 
+* 1ea MG996R Servo
+* [1ea MG90s 180deg Servo](https://www.amazon.de/gp/product/B086V3VP72/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)
+* 1ea  
 
 * [1mm high temperature silicone sheet](https://www.amazon.de/gp/product/B08KFTPTG9/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1)
 * [1 ea silicone O-Ring 10x14x2mm](https://www.amazon.de/gp/product/B07NQD6KCJ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1)
