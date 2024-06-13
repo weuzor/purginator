@@ -1,10 +1,10 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
 
-![All Mods](https://github.com/weuzor/purginator/blob/main/all_mods_render.png)
+![All Mods](https://github.com/weuzor/purginator/blob/PREVIOUS VERSIONS/main/all_mods_render.png)
 
 ## The Purginator
 
-<img src="https://github.com/weuzor/purginator/blob/main/purginator_crossection.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/purginator_crossection.png" width="600">
 
 The purginator is a gantry mounted mechanized purge bucket driven by a MG90S Servo.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
@@ -23,7 +23,7 @@ This modification requires a cutout in the backpanel!
 
 ## The Brushinator
 
-<img src="https://github.com/weuzor/purginator/blob/main/brushinator_crossection.png" width="500">
+<img src="https://github.com/weuzor/purginator/blob//PREVIOUS VERSIONSmain/brushinator_crossection.png" width="500">
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ## Gantry Servo Mount + Pin
