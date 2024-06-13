@@ -26,7 +26,7 @@ This modification requires a cutout in the backpanel!
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ## Gantry Servo Mount + Pin
-<img src="https://github.com/weuzor/purginator/blob/main/gantry_servo_holder.png" width="250">
+<img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/gantry_servo_holder.png" width="250">
 
 After installing the Filametrix Cutting Mod I realized that the fixed pin interferes with the Stealthburner when moving around the top left corner of the printbed which is something I could not live with.
 Since there is a config option for a retracting [Filametrix Cutting Mod](https://github.com/sorted01/Filametrix) pin in the [Happy Hare Software](https://github.com/moggieuk/Happy-Hare) I began my search for the appropriate STL files.
