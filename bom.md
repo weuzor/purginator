@@ -19,7 +19,10 @@
 * 1 MG90s 360deg Servo (Aliexpress) or [modified](https://www.youtube.com/watch?v=JhHSXCLsN4k) MG90s 180deg servo
 * 1 ballbearing 3x10x4mm
 * 1 ballbearing 10x22x6mm
+* 2 4mm M3 heat inserts
+
 ## depressor
 
-* 1ea MG996R Servo
+* 1 [MG996R Servo](https://www.amazon.de/YUNIQUE-DEUTSCHLAND-Digitale-Lenkservo-Helikopter/dp/B01I3Y3F88/ref=sr_1_9?dib=eyJ2IjoiMSJ9.G3-khGX_66aLGwrn15h3bhyiC3pITrSa07Fi0FzRNX9ws2lNqgmOCQjLvkZaYhZVkTtY4pMXpn2e9OBuqnN8kQPIvYe7KKd88F_HMFZq2kndAN0xoA_8FaEx30aT17aqigkCK2yhZjCA2J0m_bX2P5kIVi1J3-Qp-dCgYSOre6q2xQEYnpNuQzUakSBd8UKaQP56TCZhciCODIaLjMIUdtRvBkogOPjn8wJbQr9jdzus8h97RV2YYf9y7CbNcL0x3C1v5UwJZXbkaAPT2RRR5tyQXjkrW8xm-Wldrn-nYFk.vdqtnmtrUE3LFexI7iQRJ0K969vpKZrBey6H-DKMHQE&dib_tag=se&keywords=mg996r&qid=1718242459&sr=8-9)
+* 2 M3
 
