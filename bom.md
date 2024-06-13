@@ -29,5 +29,5 @@
 * 1 [MG996R Servo](https://www.amazon.de/YUNIQUE-DEUTSCHLAND-Digitale-Lenkservo-Helikopter/dp/B01I3Y3F88/ref=sr_1_9?dib=eyJ2IjoiMSJ9.G3-khGX_66aLGwrn15h3bhyiC3pITrSa07Fi0FzRNX9ws2lNqgmOCQjLvkZaYhZVkTtY4pMXpn2e9OBuqnN8kQPIvYe7KKd88F_HMFZq2kndAN0xoA_8FaEx30aT17aqigkCK2yhZjCA2J0m_bX2P5kIVi1J3-Qp-dCgYSOre6q2xQEYnpNuQzUakSBd8UKaQP56TCZhciCODIaLjMIUdtRvBkogOPjn8wJbQr9jdzus8h97RV2YYf9y7CbNcL0x3C1v5UwJZXbkaAPT2RRR5tyQXjkrW8xm-Wldrn-nYFk.vdqtnmtrUE3LFexI7iQRJ0K969vpKZrBey6H-DKMHQE&dib_tag=se&keywords=mg996r&qid=1718242459&sr=8-9)
 * 2 [10mm male/female threaded M3 brass hex standoff](https://www.amazon.de/AMZANDY-NEW-Abstandshalter-Abstandsbolzen-Motherboard-120/dp/B0825XY6VD/ref=sr_1_7?crid=3TITDI5TLOEGC&dib=eyJ2IjoiMSJ9.Lkey_yXQ8r6hCAH6FFWw5okOneqPTCSUP8t_yb0lMtPJLWKaB11n3_tK6P5iaGANIG5UnW6m949uoysijHjPMpoX3HULD8GrWlblwMRx7Q-5_ZeYL9oYqm35cjq1qeqp5CGv6OPeQoozvjhXZ9FaHxSD4GP4VnOVWlB2F2HYQHN90KLqVSrJ3lSJUASCDusTpiwSzIw25-1eFvopz5q1H9xc6379X1k6_oGgFUENuLVuG0YvzloBLdCLJeDJ5b6EpO7Etbycj9Qk3-8aL6k3gwPVumwaHsfkmjy78CIZKbw.dDZao0cnR60cPkmA0iYp5-txgPim3ksjU0daOCAcIV0&dib_tag=se&keywords=standoff+m3&qid=1710792950&sprefix=standoff+m3%2Caps%2C98&sr=8-7) (only needed for backers version)
 * 2 M3x40 screws
-* 2 M3x40 screws
+* 2 M3x12 screws
 
