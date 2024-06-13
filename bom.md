@@ -1,4 +1,4 @@
-# BOM (work in progress)
+# BOM (unfinished work in progress)
 ## purginator
 * 1 [MG90s 180deg servo](https://www.amazon.de/gp/product/B086V3VP72/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)
 * 1 [DS15-L Micro linear servo](https://www.amazon.de/gp/product/B0B5K1KKV1/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1)
