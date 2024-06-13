@@ -15,7 +15,7 @@ It also provides a place to park the toolhead for warmup/cooldown where oozing i
 
 ## The Excarvator
 
-<img src="https://github.com/weuzor/purginator/blob/main/excarvator_crossection.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/excarvator_crossection.png" width="600">
 The excarvator is a collecting tray for the purged filament dropped by the purginator. It has a built in screw conveyor which drags the purged material out of the printer through a small heat trap.
 The screw conveyor is powered by a MG90S 360deg Servo.
 Once outside the material can either be collected in a suitable container at the back of the printer or if the printer is placed at the rear of a table directly droped into a waste basket on the floor.
