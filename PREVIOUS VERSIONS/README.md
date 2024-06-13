@@ -1,5 +1,5 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
-<img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/excarvator_crossection.png" width="600">
+<img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/all_mods_render.png" width="600">
 
 
 ## The Purginator
