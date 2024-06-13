@@ -1,6 +1,7 @@
 # Voron 2 Modifications for multi material printing with ERCF and Stealthburner with Filametrix Cutter
 ![All Mods](https://github.com/weuzor/purginator/blob/PREVIOUS VERSIONS/main/all_mods_render.png)
 
+
 ## The Purginator
 <img src="https://github.com/weuzor/purginator/blob/main/PREVIOUS VERSIONS/purginator_crossection.png" width="600">
 
@@ -21,6 +22,7 @@ This modification requires a cutout in the backpanel!
 
 ## The Brushinator
 <img src="https://github.com/weuzor/purginator/blob/PREVIOUS VERSIONS/main/brushinator_crossection.png" width="500">
+
 The brushinator is a cheap copy of [this gantry mounted nozzle cleaner](https://www.printables.com/de/model/269412-voron-v24-300-gantry-mounted-nozzle-cleaner) matching the purginator design.
 
 ## Gantry Servo Mount + Pin
