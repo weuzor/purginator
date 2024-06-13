@@ -12,7 +12,7 @@ The purginator is a mechanized purge bucket for Voron 2 3d Printers.
 In extended position a strip of silicone with a hole is bent into a loop like shape nestling the hole to the nozzle for purging. 
 When retracting the silicone strip gets stretched out. This motion wipes the nozzle tip and drops the purged filament.
 Installing a purginator enables multi material printing without purge/prime tower thus keeping the entire printbed available. 
-[Watch a proof of concept video of a short 3 colour testprint with the orevious version of the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
+[Watch a proof of concept video of a short 3 colour testprint with the previous version of the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
 It also provides a place to park the toolhead for warmup/cooldown where oozing is no problem.
 
 ## The Excarvator
