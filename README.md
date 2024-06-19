@@ -28,7 +28,6 @@ To prevent this the excarvator has a safety microswitch to trigger an emergency 
 ## [Filametrix](https://github.com/sorted01/Filametrix) Depressor 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Depressor.png" width="500">
 
-Cut without oozing.
 This mod places a strong enough MG996R Servo at a location where it does not interfere with the toolhead but can depress the filametrix cutter lever with its servo arm.
 Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
 Comes with two mounting options for gantries with backers or without.
