@@ -1,7 +1,7 @@
 # The Purginator - a purge bucket for the Voron2
 
 The purginator and his sidekicks extractor and depressor are modifications for Voron 2 Printers fitted with Voron Tap, umbilical Stealthburner with E3D Revo hotend (other hotends probably work as well), Filametrix Cutter Mod and Enraged Rabbit Carrot Feeder using sensorless homing and running Happy Hare.
-In combination these mods enable multi material printing without purge tower.
+In combination they enable multi material printing without purge tower.
 
 ## Purginator
 
