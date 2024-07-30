@@ -3,7 +3,7 @@
 All modifications are designed for a Voron 2.4 350mm sized 3d Printer fitted with Voron Tap, sensorless homing and umbilical CW2 toolhead with Filametrix Mod. 
 
 
-## The Purginator
+## Purginator
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator.png" width="600">
 
@@ -13,7 +13,7 @@ The purginator is a retractable purging device intended for multi material print
 [Watch a proof of concept video of a short 3 colour testprint with the previous version of the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
 
 
-## The Extractor
+## Extractor
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Excarvator.png" width="600">
 
