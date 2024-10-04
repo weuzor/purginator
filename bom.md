@@ -12,7 +12,6 @@
 * 1 M3 x 40 countersunk screw
 * 4 4mm M3 heat inserts
 * 8 M2 x 6 tapping screws
-* 1 PTFE tube approx. 5mm in length (2mm ID, 4mm OD)
 * 4 M2 x 16 Tapping screw
 * 2 M3 x 6 screw
 
