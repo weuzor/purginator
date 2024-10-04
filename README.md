@@ -9,7 +9,7 @@ In combination they enable multi material printing without purge tower.
 
 The purginator is a retractable purging device intended for multi material printing without purge tower.
 
-[Watch a proof of concept video of a short 3 colour testprint with the previous version of the purginator, brushinator and gantry servo mount](https://youtu.be/IaCVgWm7dVc). 
+([https://youtu.be/IaCVgWm7dVc](https://youtu.be/EkpkXMRFAnM)). 
 
 
 ## Extractor
