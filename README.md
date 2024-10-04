@@ -7,9 +7,8 @@ In combination they enable multi material printing without purge tower.
 
 <img src="https://github.com/weuzor/purginator/blob/main/PIX/Purginator_v1.1.png" width="600">
 
-The purginator is a retractable purging device intended for multi material printing without purge tower.
 
-([https://youtu.be/IaCVgWm7dVc](https://youtu.be/EkpkXMRFAnM)). 
+([15 min Testprint showing toolchanges and after print nozzle treatment with the purginator](https://youtu.be/EkpkXMRFAnM)). 
 
 
 ## Extractor
