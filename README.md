@@ -1,6 +1,6 @@
 # The Purginator - a purge bucket for the Voron2
 
-The purginator and his sidekicks extractor and depressor are modifications for Voron 2 Printers fitted with Voron Tap, umbilical Stealthburner with E3D Revo hotend (other hotends probably work as well), Filametrix Cutter Mod and Enraged Rabbit Carrot Feeder using sensorless homing and running Happy Hare.
+The purginator, extractor and depressor are modifications for Voron 2 Printers fitted with Voron Tap, umbilical Stealthburner with E3D Revo hotend (other hotends probably work as well), Filametrix Cutter Mod and Enraged Rabbit Carrot Feeder using sensorless homing and running Happy Hare.
 In combination they enable multi material printing without purge tower.
 
 ## Purginator
@@ -31,4 +31,6 @@ https://github.com/user-attachments/assets/b3596728-9525-4a37-93d0-bf73759ecd00
 This mod places a strong enough MG996R Servo at a location where it does not interfere with the toolhead but can depress the filametrix cutter lever with its servo arm.
 Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
 Comes with two mounting options for gantries with backers or without.
+
+Alternatively, instead of the gantry mounted depressor this toolhead https://github.com/weuzor/mm_burner can be used, which has a integrated bowden/servo filament cutter able to cut any time anywhere :-)
 
