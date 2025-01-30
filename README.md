@@ -32,7 +32,7 @@ This mod places a strong enough MG996R Servo at a location where it does not int
 Thereby the toolhead can remain docked to the purginator during the cutting sequence which eliminates oozing.
 Comes with two mounting options for gantries with backers or without.
 
-Alternatively, instead of the gantry mounted depressor this toolhead https://github.com/weuzor/mm_burner can be used, which has a integrated bowden/servo filament cutter able to cut any time anywhere :-)
+As an alternative to the gantry mounted depressor this [bowden actuated filament cutter](https://github.com/weuzor/bowden_cutter) can also be used instead to cut any time anywhere :-)
 
 <img width="500" alt="hot1" src="https://github.com/user-attachments/assets/fde41d2f-a4a4-4c1e-86de-19fbdbc90dd4" />
 <img width="500" alt="ex2" src="https://github.com/user-attachments/assets/24e83e39-cab6-4066-85c1-ef2cb1eb5e8f" />
